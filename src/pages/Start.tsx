@@ -62,8 +62,8 @@ export function Start() {
   return (
     <div className="bg-img">
       {loggedInUser ? (
-        <div>
-          <h4>inloggad</h4>
+        <div className="info-container">
+          <h4>Inloggad</h4>
           <h5>{loggedInUser.email}</h5>
           <label htmlFor="subscribe">
             <b>Subscribe</b>

@@ -58,4 +58,8 @@ body, html {
   .btn:hover {
     opacity: 1;
   }
-  
+.info-container{
+    color: white;
+    text-align: center;
+    padding: 16px;
+}  
